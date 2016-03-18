@@ -1,9 +1,9 @@
 
 Pod::Spec.new do |s|
-  s.name         = "SignatureView"
-  s.version      = "1.1.0"
+  s.name         = "AOSignatureView"
+  s.version      = "1.0.0"
   s.summary      = "UI component for capturing signature."
-  s.homepage     = "https://github.com/michalkonturek/SignatureView"
+  s.homepage     = "https://github.com/AnthonyMDev/SignatureView"
   s.license      = 'MIT'
 
   s.author       = { 
@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '7.0'
 
   s.source       = { 
-    :git => "https://github.com/michalkonturek/SignatureView.git", 
+    :git => "https://bitbucket.org/app-order/aosignatureview.git"
     :tag => s.version.to_s
   }
 
