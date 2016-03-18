@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "AOSignatureView"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "UI component for capturing signature."
   s.homepage     = "https://github.com/AnthonyMDev/SignatureView"
   s.license      = 'MIT'

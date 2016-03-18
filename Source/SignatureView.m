@@ -73,11 +73,7 @@
 - (void)clear {
     self.blank = YES;
     
-    UIColor *newBackgroundColor = (self.backgroundColor && self.backgroundColor != [UIColor clearColor]) ?
-    self.backgroundColor : [UIColor whiteColor];
-    
-    [self clearWithColor:newBackgroundColor];
-    [self clearWithColor:[UIColor clearColor]];
+    self.image = nil;
 }
 
 - (void)clearWithColor:(UIColor *)color {
