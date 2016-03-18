@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '7.0'
 
   s.source       = { 
-    :git => "https://bitbucket.org/app-order/aosignatureview.git"
+    :git => "https://bitbucket.org/app-order/aosignatureview.git",
     :tag => s.version.to_s
   }
 
